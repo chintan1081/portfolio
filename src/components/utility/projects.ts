@@ -1,4 +1,4 @@
-import { AwsIcon, CSSIcon, ExpressIcon, GeminiIcon, GithubIcon, HtmlIcon, JavascriptIcon, NestjsIcon, NodeIcon, PostgresIcon, PythonIcon, ReactIcon, TypeOrmIcon, TypescriptIcon, VercelIcon, WebsocketIcon } from "../ui/stackIcon";
+import { AwsIcon, ExpressIcon, GeminiIcon, PostgresIcon, PythonIcon, ReactIcon, TypeOrmIcon, TypescriptIcon, VercelIcon, WebsocketIcon } from "../ui/stackIcon";
 
 export const projects = [
     {
