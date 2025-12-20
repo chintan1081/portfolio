@@ -11,14 +11,16 @@ const Navbar = () => {
     const [navOpen, setNavOpen] = useState(false);
     const navData: NavDataProp[] = [
         { to: "/work", title: "Work" },
-        { to: "/blogs", title: "Blogs" },
+        // { to: "/blogs", title: "Blogs" },
         { to: "/projects", title: "Projects" }
     ]
 
     return (
-        <div className="sticky top-0 inset-x-0 bg-white border border-neutral-200">
+        <div className="sticky top-0 z-100 inset-x-0 bg-white border border-neutral-200">
             <div className="relative p-4 md:pr-8 mx-auto border-x border-neutral-200 max-w-2xl flex flex-row justify-between items-center">
-                <img className="w-12" src="cp-logo.png" alt="chintan-img" />
+                <Link to="/">
+                    <img className="w-12 cursor-pointer" src="/cp-logo.png" alt="chintan-img" />
+                </Link>
                 <div className="hidden md:flex gap-4 text-neutral-700 text-sm font-medium">
                     {navData.map((navItem) =>
                         <Link
@@ -33,8 +35,9 @@ const Navbar = () => {
                 </button>
                 {navOpen && <div className=" absolute inset-x-0 shadow-lg border-neutral-300 text-sm text-neutral-700 font-medium mx-auto rounded-2xl gap-2 max-w-[90%] top-16 bg-white flex flex-col p-4">
                     {
-                        navData.map((navItem) =>
+                        navData.map((navItem, index) =>
                             <Link
+                                key={index}
                                 to={navItem.to}
                                 className="border-b border-neutral-100 px-2"
                             >
