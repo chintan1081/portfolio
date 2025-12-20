@@ -6,7 +6,8 @@
 //     // {title: "React.js", icon: }
 
 import { FiFile } from "react-icons/fi"
-import StackName from "./ui/stackName"
+import StackName from "./ui/StackName"
+import { Link } from "react-router-dom"
 
 const IntroSection = () => {
 
@@ -61,10 +62,12 @@ const IntroSection = () => {
                     <span>that solve real-world problems.</span>
                 </div>
                 <div className="px-8 pb-4">
-                    <button className=" flex items-center gap-1 rounded shadow-inner cursor-pointer hover:bg-gray-100 inset-shadow-sm inset-shadow-gray-600/10  ring-1 ring-gray-300  bg-white text-xs font-medium  px-2 py-1">
-                    <FiFile />
-                    Resume
-                    </button>
+                    <Link to="/resume">
+                        <button className=" flex items-center gap-1 rounded shadow-inner cursor-pointer hover:bg-gray-100 inset-shadow-sm inset-shadow-gray-600/10  ring-1 ring-gray-300  bg-white text-xs font-medium  px-2 py-1">
+                            <FiFile />
+                            Resume
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>

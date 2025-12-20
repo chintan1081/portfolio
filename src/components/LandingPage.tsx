@@ -1,16 +1,20 @@
+import AboutUsSection from "./AboutUsSection"
+import ExperienceSection from "./ExperienceSection"
 import IntroSection from "./IntroSection"
-import Navbar from "./Navbar"
+import ProjectSection from "./ProjectSection"
 import SocialSection from "./SocialSection"
 import TechnologiesSection from "./TechnologiesSection"
 
 const LandingPage = () => {
   return (
-    <div className="bg-white relative">
-        <Navbar />
+    <>
         <IntroSection />
         <SocialSection />
         <TechnologiesSection />
-    </div>
+        <ExperienceSection />
+        <ProjectSection />
+        <AboutUsSection />
+    </>
   )
 }
 
