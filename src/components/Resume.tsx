@@ -1,6 +1,6 @@
 import { FiDownload, FiExternalLink } from "react-icons/fi";
 
-const RESUME_FILE_ID = "1AvXq5Kf8R-27Wc4_TEiY0inxh5ZeeOV4";
+const RESUME_FILE_ID = "1P86ANc89npPxKieRI3x7DI0sdazsX_jm";
 const DRIVE_PREVIEW = `https://drive.google.com/file/d/${RESUME_FILE_ID}/preview`;
 const DRIVE_VIEW = `https://drive.google.com/uc?export=download&id=${RESUME_FILE_ID}`;
 

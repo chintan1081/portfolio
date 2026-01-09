@@ -12,7 +12,7 @@ const AboutUsSection = () => {
         <div className="border-b border-neutral-200">
             <div className="border-x mx-auto max-w-2xl border-neutral-200">
                 <div className="p-8">
-                    <h1 className="py-4 font-semibold text-2xl">About Me</h1>
+                    <h1 className="py-4 font-semibold text-2xl text-center py-4 mb-6 border-b border-neutral-200 ">About Me</h1>
                     <ul className="ml-4">
                         {aboutMe.map((about) => <li className="py-0.5 font-mono text-sm marker:text-neutral-400 list-disc text-neutral-500">
                             {about}

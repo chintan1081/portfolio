@@ -1,7 +1,7 @@
 import { IoCodeSlash } from "react-icons/io5";
 import { TbStack3 } from "react-icons/tb";
 import ToolsTechnology from "./ui/ToolsTechnology";
-import { AwsIcon, GithubIcon, NestjsIcon, NodeIcon, PostgresIcon, ReactIcon, TypeOrmIcon, TypescriptIcon } from "./ui/stackIcon";
+import { AwsIcon, E2BIcon, GithubIcon, MongoDBIcon, NestjsIcon, NodeIcon, PostgresIcon, ReactIcon, TypeOrmIcon, TypescriptIcon, VercelIcon, WebsocketIcon } from "./ui/stackIcon";
 
 type Experience = {
   companyName: string;
@@ -19,8 +19,8 @@ const ExperienceSection = () => {
       companyName: "BanasTech Pvt Ltd.",
       role: "Software Engineer",
       employmentType: "Full-time",
-      startDate: "06/2024",
-      endDate: "Present",
+      startDate: "August 2023",
+      endDate: "October 2025",
       bullets: [
   "Developed the entire frontend of ZapHalo, implementing real-time communication between WhatsApp users and AI agents using WebSockets, significantly enhancing responsiveness and user engagement.",
   "Designed and deployed multiple AI agents to automate messaging workflows, including a message automation agent and a WhatsApp template generation agent, improving operational efficiency by 80% and reducing manual intervention.",
@@ -37,6 +37,31 @@ const ExperienceSection = () => {
           { title: "Typescript", icon: TypescriptIcon, href: "" },
           { title: "AWS", icon: AwsIcon, href: "" },]
     },
+    {
+  companyName: "Freelance · SaaS Landing Page Builder",
+  role: "Full-Stack Software Engineer",
+  employmentType: "Freelance",
+  startDate: "December 2025",
+  endDate: "Present",
+  bullets: [
+    "Developed a freelance SaaS landing page builder that enables clients to create customizable landing pages by selecting from a library of pre-built UI components and generating production-ready layouts using AI-driven code generation.",
+    "Integrated AI-powered UI component generation that writes and modifies ReactJS and TypeScript code in real time based on client prompts, allowing dynamic customization of layouts, styles, and content.",
+    "Implemented real-time streaming responses and live preview updates using WebSocket and the Vercel AI SDK, enabling instant feedback loops and significantly improving user experience.",
+    "Designed and implemented a scalable full-stack architecture using ReactJS on the frontend and Node.js, MongoDB, and Mongoose on the backend, ensuring flexible schema design and efficient data handling.",
+    "Integrated isolated execution environments using the E2B sandbox to securely run, build, and preview AI-generated UI code, ensuring safe execution and preventing runtime conflicts.",
+    "Future enhancements including RAG-based prompt enrichment, vector databases and embeddings for intelligent UI component retrieval, and a production deployment pipeline on AWS EC2 to scale the platform into a full SaaS offering."
+  ],
+  technologies: [
+    { title: "React.js", icon: ReactIcon, href: "" },
+    { title: "TypeScript", icon: TypescriptIcon, href: "" },
+    { title: "Node.js", icon: NodeIcon, href: "" },
+    { title: "MongoDB", icon: MongoDBIcon, href: "" },
+    { title: "WebSocket", icon: WebsocketIcon, href: "" },
+    { title: "Vercel AI SDK", icon: VercelIcon, href: "" },
+    { title: "E2B Sandbox", icon: E2BIcon, href: "" }
+  ]
+}
+
   ];
 
   return (
