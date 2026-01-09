@@ -39,7 +39,7 @@ const ExperienceSection = () => {
     },
     {
   companyName: "Freelance · SaaS Landing Page Builder",
-  role: "Full-Stack Software Engineer",
+  role: "Founding Engineer",
   employmentType: "Freelance",
   startDate: "December 2025",
   endDate: "Present",
