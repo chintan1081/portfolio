@@ -19,8 +19,8 @@ const ExperienceSection = () => {
       companyName: "BanasTech Pvt Ltd.",
       role: "Software Engineer",
       employmentType: "Full-time",
-      startDate: "August 2023",
-      endDate: "October 2025",
+      startDate: "May 2024",
+      endDate: "September 2025",
       bullets: [
   "Developed the entire frontend of ZapHalo, implementing real-time communication between WhatsApp users and AI agents using WebSockets, significantly enhancing responsiveness and user engagement.",
   "Designed and deployed multiple AI agents to automate messaging workflows, including a message automation agent and a WhatsApp template generation agent, improving operational efficiency by 80% and reducing manual intervention.",
