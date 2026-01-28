@@ -1,7 +1,7 @@
 import { IoCodeSlash } from "react-icons/io5";
 import { TbStack3 } from "react-icons/tb";
 import ToolsTechnology from "./ui/ToolsTechnology";
-import { AwsIcon, E2BIcon, GithubIcon, MongoDBIcon, NestjsIcon, NodeIcon, PostgresIcon, ReactIcon, TailwindIcon, TypeOrmIcon, TypescriptIcon, VercelIcon, WebsocketIcon } from "./ui/stackIcon";
+import { AwsIcon, GithubIcon, NestjsIcon, NodeIcon, PostgresIcon, ReactIcon, TailwindIcon, TypeOrmIcon, TypescriptIcon, VercelIcon, WebsocketIcon } from "./ui/stackIcon";
 
 type Experience = {
   companyName: string;
@@ -51,13 +51,9 @@ const ExperienceSection = () => {
     
     "Designed and implemented a scalable, high-performance frontend using React.js, Next.js, TypeScript, and Tailwind CSS, focusing on clean UX, modular components, and conversion-driven layouts.",
     
-    "Developed a component-driven UI system that enables rapid assembly of landing pages and application interfaces using reusable, production-grade patterns.",
-    
     "Architected the platform for end-to-end startup generation, covering frontend, backend, database, and deployment workflows with a phased and extensible system design.",
     
-    "Integrated real-time streaming and live preview capabilities using WebSocket and modern AI tooling to enable interactive code generation and instant visual feedback.",
-    
-    "Planned and designed future backend services, authentication, database schemas, and cloud deployment pipelines to support full SaaS application generation.",
+    "Planning and designing future backend services, authentication, database schemas, and cloud deployment pipelines to support full SaaS application generation.",
     
     "Defined a future roadmap to integrate AI orchestration with RAG-based prompt enrichment and vector databases, enabling intelligent code generation for frontend, backend APIs, database models, and deployment configurations."
   ],
